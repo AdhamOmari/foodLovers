@@ -13,6 +13,7 @@ margin-left: 0px;
 }
 
 #h1 {
+    float: right;
     text-align: center;
 }
 
@@ -26,7 +27,7 @@ margin-left: 0px;
     box-sizing: border-box;
 }
 
-table {
+table{
     float: right;
     table-layout: fixed;
     width: 40%;
@@ -34,7 +35,6 @@ table {
     border: 3px solid purple;
 }
 
-main{
-    background-image: url('backGr/background.jpg');
-
+#myForm{
+    background-color: yellow;
 }

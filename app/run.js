@@ -4,7 +4,7 @@ let contener = document.getElementById('contener');
 
 let foodForm = document.getElementById('myForm');
 
-let imgFood = ['img/burger.jpg','img/pizza.jpg','img/shawarma.jpg']
+let imgFood = ['burger.jpg','pizza.jpg','shawarma.jpg']
 let loveFood = [];
 function Food(custmerName, type, price, photo) {
 
@@ -88,7 +88,7 @@ function handelSubmit(event) {
     let img = imgRandom(type);
 
 
-    new Food(custmer, type, price, imgFood[img]);
+    new Food(custmer, type, price, img);
     render();
     // console.log(price);
     console.log(loveFood)
@@ -115,11 +115,11 @@ function gittingItem (){
 function imgRandom(value) {
 
     if (value === 'shawerma') {
-        return 'img/burger.jpg'
+        return 'shawarma.jpg'
     } else if (value === 'burger') {
-        return 'img/pizza.jpg'
+        return 'burger.jpg'
     } else if (value === 'pitza') {
-        return 'img/shawarma.jpg'
+        return 'pizza.jpg'
     }
 
 }
