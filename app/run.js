@@ -13,7 +13,7 @@ function Food(custmerName, type, price, photo) {
     this.price = price;
     this.photo = 'img/'+photo;
     loveFood.push(this);
-    sittingItem
+    sittingItem();
 
 
 }
