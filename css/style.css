@@ -1,0 +1,40 @@
+header{
+    background-color: yellow#fff;
+    width: 50%;
+    height: 100px;
+    display: flex;
+}
+
+
+#logo{
+margin-left: 0px;
+       width: 2px;
+    background-color:rgb(20, 20, 20);
+}
+
+#h1 {
+    text-align: center;
+}
+
+#myForm{
+    float: left;
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+table {
+    float: right;
+    table-layout: fixed;
+    width: 40%;
+    border-collapse: collapse;
+    border: 3px solid purple;
+}
+
+main{
+    background-image: url('backGr/background.jpg');
+
+}
